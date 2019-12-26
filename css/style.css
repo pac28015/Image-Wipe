@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: #6bc07d;
+    background-image: url(../img/Lion.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20% 50%;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.dev,
+.des {
+    font-family: serif;
+    font-size: 2em;
+    color: #404332;
+    letter-spacing: 30px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    transition: all 0.25s;
+}
+.des {
+    left: 75%;
+    z-index: 999;
+}
+
+.separator {
+    height: 100%;
+    width: 5px;
+    background-color: #404332;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    cursor: cell;
+}
+.frame {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    background-image: url(../img/Lion\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20% 50%;
+    background-attachment: fixed;
+    position: absolute;
+    right: 0;
+}
